@@ -1,7 +1,7 @@
 # Личный проект «Кексобукинг»
 
-* Студент: [Михаил Дворянчиков](https://up.htmlacademy.ru/javascript/24/user/1325757).
-* Наставник: `Неизвестно`.
+* Студент: [Михаил Дворянчиков](https://htmlacademy.ru/profile/mdvelmes).
+* Наставник: [Максим Прусаков](https://htmlacademy.ru/profile/hikikomori).
 
 ---
 

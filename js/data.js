@@ -21,7 +21,11 @@ import {
 } from './constants.js';
 
 const getAvatar = (idx) => `img/avatars/user${idx}.png`;
-const getPhotoUrl = (value) => `${PHOTO_ROOT}${getRandomItem(value)}`;
+const photoUrls = PHOTOS.map((url) => `${PHOTO_ROOT}${url}`);
+
+// const getRandomPhotos = (photos) => photos.map((url) => `${PHOTO_ROOT}${url}`);
+// console.log(getRandomPhotos(getSomeArray(PHOTOS)));
+
 
 const getRandomAd = () => {
   const avatarIndex = String(getRandomBetweeen(1, 8)).padStart(2, 0);
@@ -47,7 +51,8 @@ const getRandomAd = () => {
       checkin: time,
       checkout: time,
       features: getSomeArray(FEATURES),
-      photos: getPhotoUrl(PHOTOS),
+      // photos: getRandomPhotos(getSomeArray(PHOTOS)),
+      photos: getSomeArray(photoUrls),
     },
     location: {
       lat: location.lat,

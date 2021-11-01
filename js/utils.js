@@ -45,7 +45,7 @@ const getRandomItem = (array) => array[getRandomBetweeen(0, array.length - 1)];
 
 /* --------------- Случайный срез массива --------------- */
 
-const getRandomBoolean = () => Math.random() > 0.5;
+const getRandomBoolean = () => Math.random() < 0.5;
 
 const getSomeArray = (array, canBeEmpty = false) => {
   const result = array.filter(getRandomBoolean);

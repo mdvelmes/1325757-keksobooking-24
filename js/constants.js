@@ -46,6 +46,14 @@ const Coordinates = {
   },
 };
 
+const HouseMinPrices = {
+  bungalow: 0,
+  flat: 1000,
+  hotel: 3000,
+  house: 5000,
+  palace: 10000,
+};
+
 export {
   NUM_ADS,
   TIMES,
@@ -60,4 +68,5 @@ export {
   Guests,
   DEC,
   Coordinates,
+  HouseMinPrices,
 };
